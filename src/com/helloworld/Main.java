@@ -6,6 +6,7 @@ public class Main {
         // write your code here
         System.out.println("Hello world! test merge" + "THIS IS A NEW CONTENT IN MATER BRANCH");
         System.out.println("master branch");
+        System.out.println("тест");
         System.out.println(sum(1,2,3));
     }
 
