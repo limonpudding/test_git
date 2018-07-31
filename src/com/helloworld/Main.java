@@ -11,6 +11,7 @@ public class Main {
         System.out.println(sub(10, 4));
         System.out.println("IntelliJ");
         System.out.println(div(10, 3));
+        System.out.println(mul(10, 4));
     }
 
     public static int sum(int a, int b, int c) {
@@ -23,5 +24,8 @@ public class Main {
 
     public static float div(float a, float b) {
         return a / b;
+    }
+    public static int mul(int a, int b) {
+        return a * b;
     }
 }
