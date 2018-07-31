@@ -10,6 +10,7 @@ public class Main {
         System.out.println(sum(1,2,3));
         System.out.println(sub(10, 4));
         System.out.println("IntelliJ");
+        System.out.println(div(10, 3));
         System.out.println(mul(10, 4));
     }
 
@@ -21,6 +22,9 @@ public class Main {
         return a - b;
     }
 
+    public static float div(float a, float b) {
+        return a / b;
+    }
     public static int mul(int a, int b) {
         return a * b;
     }
