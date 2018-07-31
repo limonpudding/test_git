@@ -9,6 +9,7 @@ public class Main {
         System.out.println("тест");
         System.out.println(sum(1,2,3));
         System.out.println(sub(10, 4));
+        System.out.println("IntelliJ");
     }
 
     public static int sum(int a, int b, int c) {
