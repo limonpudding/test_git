@@ -10,6 +10,7 @@ public class Main {
         System.out.println(sum(1,2,3));
         System.out.println(sub(10, 4));
         System.out.println("IntelliJ");
+        System.out.println(div(10, 3));
     }
 
     public static int sum(int a, int b, int c) {
@@ -18,5 +19,9 @@ public class Main {
 
     public static int sub(int a, int b) {
         return a - b;
+    }
+
+    public static float div(float a, float b) {
+        return a / b;
     }
 }
