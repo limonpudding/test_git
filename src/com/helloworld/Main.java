@@ -10,6 +10,8 @@ public class Main {
         System.out.println(fancyOutput(sum(1,2,3)));
         System.out.println(fancyOutput(sub(10, 4)));
         System.out.println("IntelliJ");
+        System.out.println("Фактриал 7 равен: " + factorial(7));
+        System.out.println(mul(10, 4));
         System.out.println(fancyOutput(div(10, 3)));
         System.out.println(fancyOutput(mul(10, 4)));
     }
@@ -25,9 +27,16 @@ public class Main {
     private static float div(float a, float b) {
         return a / b;
     }
+    private static int mul(int a, int b) {
 
     private static int mul(int a, int b) {
         return a * b;
+    }
+
+    private static int factorial(int n) {
+        if (n == 0)
+            return 1;
+        return n * factorial(n - 1);
     }
 
     private static String fancyOutput(int a){
