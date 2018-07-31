@@ -27,7 +27,6 @@ public class Main {
     private static float div(float a, float b) {
         return a / b;
     }
-    private static int mul(int a, int b) {
 
     private static int mul(int a, int b) {
         return a * b;
